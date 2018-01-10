@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA7392220066CEF007CDE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7392120066CEF007CDE77 /* AppDelegate.swift */; };
+		ACA7392420066CEF007CDE77 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACA7392320066CEF007CDE77 /* GameScene.sks */; };
+		ACA7392620066CEF007CDE77 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACA7392520066CEF007CDE77 /* Actions.sks */; };
+		ACA7392820066CEF007CDE77 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7392720066CEF007CDE77 /* GameScene.swift */; };
+		ACA7392A20066CEF007CDE77 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7392920066CEF007CDE77 /* GameViewController.swift */; };
+		ACA7392D20066CEF007CDE77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA7392B20066CEF007CDE77 /* Main.storyboard */; };
+		ACA7392F20066CEF007CDE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA7392E20066CEF007CDE77 /* Assets.xcassets */; };
+		ACA7393220066CEF007CDE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA7393020066CEF007CDE77 /* LaunchScreen.storyboard */; };
+		ACA7393D20066CF0007CDE77 /* DoYouKnowTheWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7393C20066CF0007CDE77 /* DoYouKnowTheWayTests.swift */; };
+		ACA7394820066CF0007CDE77 /* DoYouKnowTheWayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7394720066CF0007CDE77 /* DoYouKnowTheWayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA7393920066CF0007CDE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA7391620066CEF007CDE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA7391D20066CEF007CDE77;
+			remoteInfo = DoYouKnowTheWay;
+		};
+		ACA7394420066CF0007CDE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA7391620066CEF007CDE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA7391D20066CEF007CDE77;
+			remoteInfo = DoYouKnowTheWay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA7391E20066CEF007CDE77 /* DoYouKnowTheWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoYouKnowTheWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA7392120066CEF007CDE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACA7392320066CEF007CDE77 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ACA7392520066CEF007CDE77 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		ACA7392720066CEF007CDE77 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ACA7392920066CEF007CDE77 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ACA7392C20066CEF007CDE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA7392E20066CEF007CDE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA7393120066CEF007CDE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACA7393320066CF0007CDE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA7393820066CF0007CDE77 /* DoYouKnowTheWayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoYouKnowTheWayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA7393C20066CF0007CDE77 /* DoYouKnowTheWayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouKnowTheWayTests.swift; sourceTree = "<group>"; };
+		ACA7393E20066CF0007CDE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA7394320066CF0007CDE77 /* DoYouKnowTheWayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoYouKnowTheWayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA7394720066CF0007CDE77 /* DoYouKnowTheWayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouKnowTheWayUITests.swift; sourceTree = "<group>"; };
+		ACA7394920066CF0007CDE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA7391B20066CEF007CDE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7393520066CF0007CDE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7394020066CF0007CDE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA7391520066CEF007CDE77 = {
+			isa = PBXGroup;
+			children = (
+				ACA7392020066CEF007CDE77 /* DoYouKnowTheWay */,
+				ACA7393B20066CF0007CDE77 /* DoYouKnowTheWayTests */,
+				ACA7394620066CF0007CDE77 /* DoYouKnowTheWayUITests */,
+				ACA7391F20066CEF007CDE77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA7391F20066CEF007CDE77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7391E20066CEF007CDE77 /* DoYouKnowTheWay.app */,
+				ACA7393820066CF0007CDE77 /* DoYouKnowTheWayTests.xctest */,
+				ACA7394320066CF0007CDE77 /* DoYouKnowTheWayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA7392020066CEF007CDE77 /* DoYouKnowTheWay */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7392120066CEF007CDE77 /* AppDelegate.swift */,
+				ACA7392320066CEF007CDE77 /* GameScene.sks */,
+				ACA7392520066CEF007CDE77 /* Actions.sks */,
+				ACA7392720066CEF007CDE77 /* GameScene.swift */,
+				ACA7392920066CEF007CDE77 /* GameViewController.swift */,
+				ACA7392B20066CEF007CDE77 /* Main.storyboard */,
+				ACA7392E20066CEF007CDE77 /* Assets.xcassets */,
+				ACA7393020066CEF007CDE77 /* LaunchScreen.storyboard */,
+				ACA7393320066CF0007CDE77 /* Info.plist */,
+			);
+			path = DoYouKnowTheWay;
+			sourceTree = "<group>";
+		};
+		ACA7393B20066CF0007CDE77 /* DoYouKnowTheWayTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7393C20066CF0007CDE77 /* DoYouKnowTheWayTests.swift */,
+				ACA7393E20066CF0007CDE77 /* Info.plist */,
+			);
+			path = DoYouKnowTheWayTests;
+			sourceTree = "<group>";
+		};
+		ACA7394620066CF0007CDE77 /* DoYouKnowTheWayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7394720066CF0007CDE77 /* DoYouKnowTheWayUITests.swift */,
+				ACA7394920066CF0007CDE77 /* Info.plist */,
+			);
+			path = DoYouKnowTheWayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA7391D20066CEF007CDE77 /* DoYouKnowTheWay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA7394C20066CF0007CDE77 /* Build configuration list for PBXNativeTarget "DoYouKnowTheWay" */;
+			buildPhases = (
+				ACA7391A20066CEF007CDE77 /* Sources */,
+				ACA7391B20066CEF007CDE77 /* Frameworks */,
+				ACA7391C20066CEF007CDE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoYouKnowTheWay;
+			productName = DoYouKnowTheWay;
+			productReference = ACA7391E20066CEF007CDE77 /* DoYouKnowTheWay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA7393720066CF0007CDE77 /* DoYouKnowTheWayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA7394F20066CF0007CDE77 /* Build configuration list for PBXNativeTarget "DoYouKnowTheWayTests" */;
+			buildPhases = (
+				ACA7393420066CF0007CDE77 /* Sources */,
+				ACA7393520066CF0007CDE77 /* Frameworks */,
+				ACA7393620066CF0007CDE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA7393A20066CF0007CDE77 /* PBXTargetDependency */,
+			);
+			name = DoYouKnowTheWayTests;
+			productName = DoYouKnowTheWayTests;
+			productReference = ACA7393820066CF0007CDE77 /* DoYouKnowTheWayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA7394220066CF0007CDE77 /* DoYouKnowTheWayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA7395220066CF0007CDE77 /* Build configuration list for PBXNativeTarget "DoYouKnowTheWayUITests" */;
+			buildPhases = (
+				ACA7393F20066CF0007CDE77 /* Sources */,
+				ACA7394020066CF0007CDE77 /* Frameworks */,
+				ACA7394120066CF0007CDE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA7394520066CF0007CDE77 /* PBXTargetDependency */,
+			);
+			name = DoYouKnowTheWayUITests;
+			productName = DoYouKnowTheWayUITests;
+			productReference = ACA7394320066CF0007CDE77 /* DoYouKnowTheWayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA7391620066CEF007CDE77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = deku;
+				TargetAttributes = {
+					ACA7391D20066CEF007CDE77 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					ACA7393720066CF0007CDE77 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACA7391D20066CEF007CDE77;
+					};
+					ACA7394220066CF0007CDE77 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACA7391D20066CEF007CDE77;
+					};
+				};
+			};
+			buildConfigurationList = ACA7391920066CEF007CDE77 /* Build configuration list for PBXProject "DoYouKnowTheWay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA7391520066CEF007CDE77;
+			productRefGroup = ACA7391F20066CEF007CDE77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA7391D20066CEF007CDE77 /* DoYouKnowTheWay */,
+				ACA7393720066CF0007CDE77 /* DoYouKnowTheWayTests */,
+				ACA7394220066CF0007CDE77 /* DoYouKnowTheWayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA7391C20066CEF007CDE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7392D20066CEF007CDE77 /* Main.storyboard in Resources */,
+				ACA7392420066CEF007CDE77 /* GameScene.sks in Resources */,
+				ACA7392F20066CEF007CDE77 /* Assets.xcassets in Resources */,
+				ACA7393220066CEF007CDE77 /* LaunchScreen.storyboard in Resources */,
+				ACA7392620066CEF007CDE77 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7393620066CF0007CDE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7394120066CF0007CDE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA7391A20066CEF007CDE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7392820066CEF007CDE77 /* GameScene.swift in Sources */,
+				ACA7392A20066CEF007CDE77 /* GameViewController.swift in Sources */,
+				ACA7392220066CEF007CDE77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7393420066CF0007CDE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7393D20066CF0007CDE77 /* DoYouKnowTheWayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7393F20066CF0007CDE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7394820066CF0007CDE77 /* DoYouKnowTheWayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA7393A20066CF0007CDE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA7391D20066CEF007CDE77 /* DoYouKnowTheWay */;
+			targetProxy = ACA7393920066CF0007CDE77 /* PBXContainerItemProxy */;
+		};
+		ACA7394520066CF0007CDE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA7391D20066CEF007CDE77 /* DoYouKnowTheWay */;
+			targetProxy = ACA7394420066CF0007CDE77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA7392B20066CEF007CDE77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA7392C20066CEF007CDE77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA7393020066CEF007CDE77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA7393120066CEF007CDE77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA7394A20066CF0007CDE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACA7394B20066CF0007CDE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA7394D20066CF0007CDE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8VCL79PEK;
+				INFOPLIST_FILE = DoYouKnowTheWay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deku.DoYouKnowTheWay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACA7394E20066CF0007CDE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8VCL79PEK;
+				INFOPLIST_FILE = DoYouKnowTheWay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deku.DoYouKnowTheWay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACA7395020066CF0007CDE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8VCL79PEK;
+				INFOPLIST_FILE = DoYouKnowTheWayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deku.DoYouKnowTheWayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoYouKnowTheWay.app/DoYouKnowTheWay";
+			};
+			name = Debug;
+		};
+		ACA7395120066CF0007CDE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8VCL79PEK;
+				INFOPLIST_FILE = DoYouKnowTheWayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deku.DoYouKnowTheWayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoYouKnowTheWay.app/DoYouKnowTheWay";
+			};
+			name = Release;
+		};
+		ACA7395320066CF0007CDE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8VCL79PEK;
+				INFOPLIST_FILE = DoYouKnowTheWayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deku.DoYouKnowTheWayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoYouKnowTheWay;
+			};
+			name = Debug;
+		};
+		ACA7395420066CF0007CDE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8VCL79PEK;
+				INFOPLIST_FILE = DoYouKnowTheWayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deku.DoYouKnowTheWayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoYouKnowTheWay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA7391920066CEF007CDE77 /* Build configuration list for PBXProject "DoYouKnowTheWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA7394A20066CF0007CDE77 /* Debug */,
+				ACA7394B20066CF0007CDE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA7394C20066CF0007CDE77 /* Build configuration list for PBXNativeTarget "DoYouKnowTheWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA7394D20066CF0007CDE77 /* Debug */,
+				ACA7394E20066CF0007CDE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA7394F20066CF0007CDE77 /* Build configuration list for PBXNativeTarget "DoYouKnowTheWayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA7395020066CF0007CDE77 /* Debug */,
+				ACA7395120066CF0007CDE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA7395220066CF0007CDE77 /* Build configuration list for PBXNativeTarget "DoYouKnowTheWayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA7395320066CF0007CDE77 /* Debug */,
+				ACA7395420066CF0007CDE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA7391620066CEF007CDE77 /* Project object */;
+}
