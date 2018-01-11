@@ -10,6 +10,9 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
-    
+     let childSpeed: CGFloat = 150.0
    
+    var child: SKSpriteNode?
+    
+    var lastTouch: CGPoint? = nil
 }
