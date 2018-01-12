@@ -10,9 +10,22 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
-     let childSpeed: CGFloat = 150.0
+     let kidSpeed: CGFloat = 150.0
    
-    var child: SKSpriteNode?
+    var kid: SKSpriteNode?
     
     var lastTouch: CGPoint? = nil
-}
+    override func didMove(to view: SKView) {
+        // Set up physics world's contact delegate
+        listener = kid
+        physicsWorld.contactDelegate = self as? SKPhysicsContactDelegate
+        kid = childNode(withName: "kid") as? SKSpriteNode
+        
+        }
+        
+        
+        
+        // Set up initial camera position
+    }
+
+
