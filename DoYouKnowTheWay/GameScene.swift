@@ -140,7 +140,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         
     }
     func followBall() {
-        let move = SKAction.moveTo(x: ball.position.x, duration: 0.4)
+        let move = SKAction.moveTo(x: ball.position.y, duration: 0.4)
         aiPaddle.run(move)
     }
     
