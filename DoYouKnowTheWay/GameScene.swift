@@ -19,6 +19,7 @@ struct PhysicsCategory {
 
 class GameScene: SKScene, SKPhysicsContactDelegate{
     
+    
     var myPaddle = SKSpriteNode()
     var ball = SKSpriteNode()
     var aiPaddle = SKSpriteNode()
@@ -44,8 +45,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         bottom = childNode(withName: "bottom") as! SKSpriteNode
         top = childNode(withName: "top") as! SKSpriteNode
         
+        
+        
         createAIPaddle()
         createLabels()
+        
         
         ball.physicsBody?.categoryBitMask = PhysicsCategory.ball
         myPaddle.physicsBody?.categoryBitMask = PhysicsCategory.paddle
@@ -57,7 +61,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         ball.physicsBody?.contactTestBitMask = PhysicsCategory.topOrBottom
         physicsWorld.contactDelegate = self
     }
-        
+    
+    
     
     func didBegin(_ contact: SKPhysicsContact) {
         
@@ -99,10 +104,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
             run(sequence)
             
         }
+     
     }
     
-    
-    
+   
     func createLabels() {
         playerScoreLabel = SKLabelNode(fontNamed: "Arial")
         playerScoreLabel.text = "0"
@@ -171,10 +176,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         isFingerOnPaddle = false
     }
     
-    
-    
-    
-    
+ 
     
     
     
