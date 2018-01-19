@@ -1,3 +1,12 @@
+//
+//  GameOverScene.swift
+//  DoYouKnowTheWay
+//
+//  Created by  on 1/17/18.
+//  Copyright © 2018 deku. All rights reserved.
+//
+
+
 import UIKit
 import SpriteKit
 
