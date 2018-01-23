@@ -42,20 +42,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         // get access to paddle.
         myPaddle = childNode(withName: "paddle") as! SKSpriteNode
         ball = childNode(withName: "ball") as! SKSpriteNode
-        bottom = childNode(withName: "bottom") as! SKSpriteNode
-        top = childNode(withName: "top") as! SKSpriteNode
+      
         
-        
-        
-        createAIPaddle()
-        createLabels()
         
         
         ball.physicsBody?.categoryBitMask = PhysicsCategory.ball
         myPaddle.physicsBody?.categoryBitMask = PhysicsCategory.paddle
-        top.physicsBody?.categoryBitMask = PhysicsCategory.topOrBottom
-        bottom.physicsBody?.categoryBitMask = PhysicsCategory.topOrBottom
-        aiPaddle.physicsBody?.categoryBitMask = PhysicsCategory.aiPaddle
+        
         
         
         ball.physicsBody?.contactTestBitMask = PhysicsCategory.topOrBottom
@@ -77,7 +70,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
                 computerScoreLabel.text = String(computerScore)
             }
             
-            if playerScore == 5 || computerScore == 5{
+            if playerScore == 9 || computerScore == 0{
                 let gameOverScene = GameOverScene(size: self.size)
                 let reveal = SKTransition.crossFade(withDuration: 1)
                 view?.presentScene(gameOverScene, transition: reveal)
@@ -107,47 +100,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
      
     }
     
-   
-    func createLabels() {
-        playerScoreLabel = SKLabelNode(fontNamed: "Arial")
-        playerScoreLabel.text = "0"
-        playerScoreLabel.fontSize = 75
-        playerScoreLabel.position = CGPoint(x: frame.width * 0.25, y: frame.height * 0.10)
-        playerScoreLabel.fontColor = UIColor.white
-        addChild(playerScoreLabel)
-        
-        computerScoreLabel = SKLabelNode(fontNamed: "Arial")
-        computerScoreLabel.text = "0"
-        computerScoreLabel.fontSize = 75
-        computerScoreLabel.position = CGPoint(x: frame.width * 0.75, y: frame.height * 0.90)
-        computerScoreLabel.fontColor = UIColor.white
-        addChild(computerScoreLabel)
-        
-    }
-    func createAIPaddle() {
-        
-        let size = myPaddle.size
-        aiPaddle = SKSpriteNode(color: UIColor.orange, size: CGSize(width: 200, height: 50))
-        aiPaddle.position = CGPoint(x: frame.width / 2, y: frame.height * 0.8)
-        
-        aiPaddle.physicsBody = SKPhysicsBody(rectangleOf: aiPaddle.frame.size)
-        
-        aiPaddle.physicsBody?.affectedByGravity = false
-        aiPaddle.physicsBody?.allowsRotation = false
-        aiPaddle.physicsBody?.friction = 0
-        aiPaddle.physicsBody?.isDynamic = false
-        
-        aiPaddle.name = "aiPaddle"
-        addChild(aiPaddle)
-        
-        run(SKAction.repeatForever(SKAction.sequence([SKAction.run(followBall), SKAction.wait(forDuration: 0.4)])
-        ))
-        
-    }
-    func followBall() {
-        let move = SKAction.moveTo(x: ball.position.y, duration: 0.4)
-        aiPaddle.run(move)
-    }
+    
+    
     
     var isFingerOnPaddle = false
     
@@ -168,7 +122,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         if isFingerOnPaddle == true {
             let touch = touches.first
             let touchLocation = touch!.location(in: self)
-            myPaddle.position = CGPoint(x: touchLocation.x, y: touchLocation.y)
+            myPaddle.position = CGPoint(x: touchLocation.x, y: 15)
         }
     }
     
