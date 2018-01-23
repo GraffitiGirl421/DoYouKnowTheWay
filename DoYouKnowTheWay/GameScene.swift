@@ -176,8 +176,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         isFingerOnPaddle = false
     }
     
- 
-    
     
     
 }
