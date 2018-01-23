@@ -122,7 +122,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         if isFingerOnPaddle == true {
             let touch = touches.first
             let touchLocation = touch!.location(in: self)
-            myPaddle.position = CGPoint(x: touchLocation.x, y: 15)
+            myPaddle.position = CGPoint(x: touchLocation.x, y: -3000)
         }
     }
     
